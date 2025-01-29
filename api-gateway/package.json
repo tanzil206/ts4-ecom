@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/microservices": "^11.0.6",
+    "axios": "^1.7.9",
+    "http-proxy-middleware": "^3.0.3",
+    "nestjs-eureka": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "build": "nest build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
